@@ -15,7 +15,7 @@ We employ decision trees to detect DDLAs in black-box models, integrating with a
 - `examples/`: Sample scripts for quick start.
 
 ## Dataset Overview
-The code uses various datas	ets, both synthetic and real-world, to validate our approach. Each dataset is specifically selected to represent typical data drift scenarios in machine learning.
+The code uses various real-world datas	ets to validate our approach. Each dataset is specifically selected to represent typical data drift scenarios in machine learning.
 
 ## Setup Instructions
 ### Software Requirements
@@ -24,10 +24,7 @@ The code uses various datas	ets, both synthetic and real-world, to validate our 
 - CUDA version: 10.1
 
 ### Dependencies
-Install `freqopttest` for ME and SCF tests:
-pip install git+https://github.com/wittawatj/interpretable-test
-
-Anaconda is recommended for managing Python and basic packages. Download it from [Anaconda Distribution](https://www.anaconda.com/distribution/#download-section).
+These files, of cause, require some basic scientific computing python packages, e.g., numpy, sklearn and matplotlib. I recommend users to install python via Anaconda (python 3.8), which can be downloaded from https://www.anaconda.com/distribution/#download-section . If you have installed Anaconda, then you do not need to worry about these basic packages.
 
 ## Contributing
 Contributions to improve the code or methods are welcome. Please refer to our contributing guidelines for more information.
